@@ -14,3 +14,8 @@ C:\Users\lab_services_student\Desktop\PROG6221_POE_GROUP1\CyberSecurityAwareness
 C:\Users\lab_services_student\Desktop\PROG6221_POE_GROUP1\CyberSecurityAwarenessBot\obj\Debug\net9.0\CyberSecurityAwarenessBot.pdb
 C:\Users\lab_services_student\Desktop\PROG6221_POE_GROUP1\CyberSecurityAwarenessBot\obj\Debug\net9.0\CyberSecurityAwarenessBot.genruntimeconfig.cache
 C:\Users\lab_services_student\Desktop\PROG6221_POE_GROUP1\CyberSecurityAwarenessBot\obj\Debug\net9.0\ref\CyberSecurityAwarenessBot.dll
+C:\Users\lab_services_student\Desktop\PROG6221_POE_GROUP1\CyberSecurityAwarenessBot\bin\Debug\net9.0\files\greeting.wav
+C:\Users\lab_services_student\Desktop\PROG6221_POE_GROUP1\CyberSecurityAwarenessBot\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\lab_services_student\Desktop\PROG6221_POE_GROUP1\CyberSecurityAwarenessBot\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
+C:\Users\lab_services_student\Desktop\PROG6221_POE_GROUP1\CyberSecurityAwarenessBot\obj\Debug\net9.0\CyberSecurityAwarenessBot.csproj.AssemblyReference.cache
+C:\Users\lab_services_student\Desktop\PROG6221_POE_GROUP1\CyberSecurityAwarenessBot\obj\Debug\net9.0\CyberSec.A1F08774.Up2Date
