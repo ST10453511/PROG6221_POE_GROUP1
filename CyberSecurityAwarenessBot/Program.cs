@@ -1,4 +1,5 @@
-﻿using System.Media;
+﻿using System;
+using System.Media;
 
 namespace CyberSecurityAwarenessBot
 {
@@ -8,6 +9,50 @@ namespace CyberSecurityAwarenessBot
         {
             DisplayAsciiArt("files/AsciiArt.txt");
             PlayVoiceGreeting();
+
+            User currentUser = new User();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            TypeEffect("\nPlease enter your name: ");
+            currentUser.Name = Console.ReadLine();
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            TypeEffect($"\nWelcome, {currentUser.Name} to your very own secure Cyber Awareness chat. I am here to teach you how to stay safe online!\n");
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            TypeEffect("\nYou can ask me about Phishing, Password Safety, Safe Browsing, Cyber Hygiene and if at any moment you are lost just type help in the chatbox, I can show you what knowledge I have.\n");
+            Console.ResetColor();
+
+            while (true)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                TypeEffect("\nYou may ask me a question or help if you are lost and to end the session type exit: ");
+                Console.ResetColor();
+
+                string userInput = Console.ReadLine().Trim().ToLower();
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    Console.WriteLine("\n────────────────────────────────────────────");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    TypeEffect("I see you that you havent typed anything?");
+                    Console.ResetColor();
+                    Console.WriteLine("\n────────────────────────────────────────────");
+                    continue;
+                }
+
+                if (userInput == "exit")
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    TypeEffect($"\nGoodbye {currentUser.Name}. Have an amazing day and stay cyber safe!");
+                    Console.ResetColor();
+                    break;
+                }
+
+                RespondToUser(userInput, currentUser);
+            }
         }
 
         static void DisplayAsciiArt(string filePath)
@@ -21,7 +66,7 @@ namespace CyberSecurityAwarenessBot
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Error: ASCII file not found at path: {filePath}");
+                TypeEffect($"Error: ASCII file not found at path: {filePath}");
                 Console.ResetColor();
             }
         }
@@ -33,6 +78,73 @@ namespace CyberSecurityAwarenessBot
             {
                 player.PlaySync();
             }
+        }
+
+        static void RespondToUser(string input, User user)
+        {
+            input = input.ToLower();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("\n────────────────────────────────────────────");
+            Console.ForegroundColor = ConsoleColor.Blue;
+
+            //1️⃣ Help Menu Option
+            if (input == "help" || input == "menu")
+            {
+                TypeEffect("You can ask me about the following topics:");
+                TypeEffect("\n- What is phishing?\n- What is password safety?\n- What is safe browsing?\n- What is cyber hygiene?\n- Help.\n- What is my purpose?\n- How am I?\n- Thank you for your assistance.\n");
+            }
+            else if (input.Contains("how are you"))
+            {
+                TypeEffect($"I'm doing great {user.Name}, thanks for asking :) Always ready to help you stay cyber safe.\n");
+            }
+            else if (input.Contains("purpose") || input.Contains("what can you do"))
+            {
+                TypeEffect("I'm here to teach you about online threats like phishing, weak passwords, and unsafe browsing and cyber hygiene.\n");
+            }
+            else if (input.Contains("thank you") || input.Contains("you are a star") || input.Contains("your amazing"))
+            {
+                TypeEffect($"Its always a pleasure to help {user.Name}! if thats all for today just type exit and if you want more information on other topics im always here.\n");
+            }
+            else if (input.Contains("phishing") || input.Contains("email scam") || input.Contains("fake email"))
+            {
+                TypeEffect("Phishing is basically when scammers online try to trick you by pretending to be someone else, like your bank or even a friend, so you'll give them your passwords, credit card details, or other personal information. They usually do this with fake emails, texts, or websites that look real, but are actually traps to steal your information. Always double-check those links, and don't go sharing anything private with people you don't 100% trust.\n");
+            }
+            else if (input.Contains("password") || input.Contains("password safety") || input.Contains("strong password"))
+            {
+                TypeEffect("When it comes to password safety, you have to create passwords that are strong and unique. Think long passwords with a mix of letters (upper and lowercase), numbers, and symbols. Don't use information like your name or birthday. Pro tip: use different passwords for everything. If one gets hacked, they wont be able to access all your other applications with the same password. If a site offers two-factor authentication, turn that on! It's like adding an extra security layer of protection to your information.\n");
+            }
+            else if (input.Contains("browsing") || input.Contains("safe browsing") || input.Contains("internet safety"))
+            {
+                TypeEffect("Safe browsing is all about being smart online so you don't get your information stolen or catch a virus. First off, make sure websites are secure look for \"https\" in the address bar. Avoid clicking on links that look suspicious or random pop-ups. Keep your browser and antivirus software updated. Never download files from places you don't know, that's how you get malware viruses.\n");
+            }
+            else if (input.Contains("cyber hygiene") || input.Contains("stay safe") || input.Contains("online safety"))
+            {
+                TypeEffect("Cyber hygiene is basically keeping your online life clean and safe. This means doing things like regularly updating your software, avoiding public Wi-Fi when you're doing anything important, and backing up your information. Backing up prevents the loss of important information. Good cyber hygiene keeps people out of your digital life secure.\n");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                TypeEffect("I dont quite understand that. Could you maybe rephrase the question that you asked or if you need help just type help in the chatbox and I can show you what knowledge I have.\n");
+            }
+
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("────────────────────────────────────────────");
+            Console.ResetColor();
+        }
+
+        static void TypeEffect(string message, int delay = 30)
+        {
+            foreach (char c in message)
+            {
+                Console.Write(c);
+                Thread.Sleep(delay);
+            }
+        }
+
+        class User
+        {
+            public string Name { get; set; }
+            public DateTime SessionStart { get; set; } = DateTime.Now;
         }
     }
 }
