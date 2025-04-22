@@ -161,7 +161,7 @@ namespace CyberSecurityAwarenessBot
         class User
         {
             public string Name { get; set; }
-            public DateTime SessionStart { get; set; } = DateTime.Now;
+            //public DateTime SessionStart { get; set; } = DateTime.Now;
         }
     }
 }
