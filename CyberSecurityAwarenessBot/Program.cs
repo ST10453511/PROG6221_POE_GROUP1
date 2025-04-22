@@ -7,24 +7,32 @@ namespace CyberSecurityAwarenessBot
     {
         static void Main(string[] args)
         {
+            // Display AsciiArt.txt from external file to create a themed logo screen
             DisplayAsciiArt("files/AsciiArt.txt");
+
+            // Play recorded greeting.wav voice greeting using SoundPlayer
             PlayVoiceGreeting();
 
+            // Create a new user object to store user information
             User currentUser = new User();
 
+            // Prompts the user to enter name
             Console.ForegroundColor = ConsoleColor.Green;
             TypeEffect("\nPlease enter your name: ");
             currentUser.Name = Console.ReadLine();
             Console.ResetColor();
 
+            // Displays the welcome message including the user's name
             Console.ForegroundColor = ConsoleColor.Cyan;
             TypeEffect($"\nWelcome, {currentUser.Name} to your very own secure Cyber Awareness chat. I am here to teach you how to stay safe online!\n");
             Console.ResetColor();
 
+            // Displays the purpose of the bot
             Console.ForegroundColor = ConsoleColor.Green;
             TypeEffect("\nYou can ask me about Phishing, Password Safety, Safe Browsing, Cyber Hygiene and if at any moment you are lost just type help in the chatbox, I can show you what knowledge I have.\n");
             Console.ResetColor();
 
+            // Loop to keep the chat session active until the user types "exit" 
             while (true)
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
@@ -33,6 +41,7 @@ namespace CyberSecurityAwarenessBot
 
                 string userInput = Console.ReadLine().Trim().ToLower();
 
+                // Checks if the user input is empty or whitespace and outputs the error message
                 if (string.IsNullOrWhiteSpace(userInput))
                 {
                     Console.WriteLine("\n────────────────────────────────────────────");
@@ -43,6 +52,7 @@ namespace CyberSecurityAwarenessBot
                     continue;
                 }
 
+                // Checks if the user input is "exit" and ends the program
                 if (userInput == "exit")
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
@@ -51,10 +61,12 @@ namespace CyberSecurityAwarenessBot
                     break;
                 }
 
+                // Responds to the user input by calling the RespondToUser method
                 RespondToUser(userInput, currentUser);
             }
         }
 
+        // Method to display AsciiArt.txt from a file  
         static void DisplayAsciiArt(string filePath)
         {
             if (File.Exists(filePath))
@@ -71,6 +83,7 @@ namespace CyberSecurityAwarenessBot
             }
         }
 
+        // Method to play the voice greeting.wav sound using SoundPlayer
         static void PlayVoiceGreeting()
         {
             string filePath = "files/greeting.wav";
@@ -80,6 +93,7 @@ namespace CyberSecurityAwarenessBot
             }
         }
 
+        // Method to respond to user input based on the topic given by the user (input has the corresponding output)  
         static void RespondToUser(string input, User user)
         {
             input = input.ToLower();
@@ -87,7 +101,7 @@ namespace CyberSecurityAwarenessBot
             Console.WriteLine("\n────────────────────────────────────────────");
             Console.ForegroundColor = ConsoleColor.Blue;
 
-            //1️⃣ Help Menu Option
+            // Help menu option
             if (input == "help" || input == "menu")
             {
                 TypeEffect("You can ask me about the following topics:");
@@ -123,6 +137,7 @@ namespace CyberSecurityAwarenessBot
             }
             else
             {
+                // If the input does not match any of the above topics, displays a default error message
                 Console.ForegroundColor = ConsoleColor.Red;
                 TypeEffect("I dont quite understand that. Could you maybe rephrase the question that you asked or if you need help just type help in the chatbox and I can show you what knowledge I have.\n");
             }
@@ -132,6 +147,7 @@ namespace CyberSecurityAwarenessBot
             Console.ResetColor();
         }
 
+        // Method to type out the message like a typewriter (letter for letter)   
         static void TypeEffect(string message, int delay = 30)
         {
             foreach (char c in message)
@@ -141,6 +157,7 @@ namespace CyberSecurityAwarenessBot
             }
         }
 
+        // Class to store the users information like their name
         class User
         {
             public string Name { get; set; }
