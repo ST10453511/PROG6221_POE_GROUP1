@@ -87,9 +87,29 @@ namespace CyberSecurityAwarenessBot
         static void PlayVoiceGreeting()
         {
             string filePath = "files/greeting.wav";
-            using (SoundPlayer player = new SoundPlayer(filePath))
+
+            try
             {
-                player.PlaySync();
+                if (File.Exists(filePath))
+                {
+                    using (SoundPlayer player = new SoundPlayer(filePath))
+                    {
+                        player.PlaySync(); // Play the WAV file synchronously
+                    }
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Voice greeting file not found: " + filePath);
+                    Console.ResetColor();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("An error occurred while playing the voice greeting.");
+                Console.WriteLine("Error: " + ex.Message);
+                Console.ResetColor();
             }
         }
 
