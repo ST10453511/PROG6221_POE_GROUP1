@@ -129,7 +129,7 @@ namespace CyberSecurityAwarenessBot
             }
             else if (input.Contains("how are you"))
             {
-                TypeEffect($"I'm doing great {user.Name}, thanks for asking :) Always ready to help you stay cyber safe.\n");
+                TypeEffect($"I am doing great {user.Name}, thanks for asking :) Always ready to help you stay cyber safe.\n");
             }
             else if (input.Contains("purpose") || input.Contains("what can you do"))
             {
