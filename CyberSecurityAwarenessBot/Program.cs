@@ -21,7 +21,7 @@ namespace CyberSecurityAwarenessBot
             User user = new User();
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-            GreetingHelper.TypeEffect("\nbefore we begin please give me a name so that I can address you properly: ");
+            GreetingHelper.TypeEffect("\nBefore we begin please give me a name so that I can address you properly: ");
             Console.ResetColor();
             user.Name = Console.ReadLine();
 
