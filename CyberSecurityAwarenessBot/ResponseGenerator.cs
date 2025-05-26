@@ -7,7 +7,7 @@ using CyberSecurityAwarenessBot;
 
 namespace CyberSecurityAwarenessBot
 {
-    // // Main class to generate responses based on user input and predefined keywords 
+    // Main class to generate responses based on user input and predefined keywords 
     internal class ResponseGenerator
     {
 
@@ -122,7 +122,7 @@ namespace CyberSecurityAwarenessBot
             };
         }
 
-        // Method to generate a response based on user input    
+        // Method to generate a response based on user inputs    
         public string GenerateResponse(string input)
         {
             if (string.IsNullOrWhiteSpace(input))
@@ -157,7 +157,7 @@ namespace CyberSecurityAwarenessBot
                     : "It seems that you havent given me any interests yet. Let me know what you're interested in";
             }
 
-            // Check for keywords in the input and generate a response based on them    
+            // Checks for keywords in the input and generates a response based on them    
             foreach (var keyword in keywordResponses.Keys)
             {
                 if (input.Contains(keyword))

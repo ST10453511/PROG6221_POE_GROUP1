@@ -7,7 +7,7 @@ using CyberSecurityAwarenessBot;
 
 namespace CyberSecurityAwarenessBot
 {
-    // // Class to handle the chatbot engine logic 
+    // Class to handle the chatbot engine logic for the program
     internal class ChatbotEngine
     {
         // This class is responsible for generating responses based on user input and predefined keywords.

@@ -48,9 +48,10 @@
               "RelativeDocumentMoniker": "GreetingHelper.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\GreetingHelper.cs",
               "RelativeToolTip": "GreetingHelper.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwD8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:19:06.823Z"
+              "WhenOpened": "2025-05-26T22:19:06.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,9 +61,10 @@
               "RelativeDocumentMoniker": "ResponseGenerator.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\ResponseGenerator.cs",
               "RelativeToolTip": "ResponseGenerator.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAYwGMAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:07:00.139Z"
+              "WhenOpened": "2025-05-26T22:07:00.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,9 +74,10 @@
               "RelativeDocumentMoniker": "ChatbotEngine.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\ChatbotEngine.cs",
               "RelativeToolTip": "ChatbotEngine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:06:39.224Z"
+              "WhenOpened": "2025-05-26T22:06:39.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -86,7 +89,8 @@
               "RelativeToolTip": "MemoryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:06:16.694Z"
+              "WhenOpened": "2025-05-26T22:06:16.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -98,7 +102,8 @@
               "RelativeToolTip": "User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:05:41.079Z"
+              "WhenOpened": "2025-05-26T22:05:41.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -108,7 +113,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T21:54:17.262Z",
               "EditorCaption": ""

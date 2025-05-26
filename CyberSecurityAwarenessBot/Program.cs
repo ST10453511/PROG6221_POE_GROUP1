@@ -11,10 +11,10 @@ namespace CyberSecurityAwarenessBot
     {
         static void Main(string[] args)
         {
-            // Display ASCII art from a text file at startup
+            // Displays ASCII art from a text file at startup
             GreetingHelper.DisplayAsciiArt("files/AsciiArt.txt");
 
-            // Play a voice greeting sound file at startup
+            // Plays a voice greeting sound file at startup
             GreetingHelper.PlayVoiceGreeting();
 
             // Creates a new user profile
