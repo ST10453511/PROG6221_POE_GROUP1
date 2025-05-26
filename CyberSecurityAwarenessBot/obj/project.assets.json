@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\CyberSecurityAwarenessBot.csproj",
+      "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\CyberSecurityAwarenessBot.csproj",
       "projectName": "CyberSecurityAwarenessBot",
-      "projectPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\CyberSecurityAwarenessBot.csproj",
+      "projectPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\CyberSecurityAwarenessBot.csproj",
       "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\obj\\",
+      "outputPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

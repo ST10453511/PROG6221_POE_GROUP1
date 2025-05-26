@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\",
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe_group1\\cybersecurityawarenessbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6211\\prog6221_poe_group1\\cybersecurityawarenessbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6211\\prog6221_poe_group1\\cybersecurityawarenessbot\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6211\\prog6221_poe_group1\\cybersecurityawarenessbot\\memoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|solutionrelative:memoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6211\\prog6221_poe_group1\\cybersecurityawarenessbot\\chatbotengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|solutionrelative:chatbotengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6211\\prog6221_poe_group1\\cybersecurityawarenessbot\\responsegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|solutionrelative:responsegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6211\\prog6221_poe_group1\\cybersecurityawarenessbot\\greetinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FB91B6-E4F8-44DF-96BC-0B320AF49979}|CyberSecurityAwarenessBot.csproj|solutionrelative:greetinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +42,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GreetingHelper.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\GreetingHelper.cs",
+              "RelativeDocumentMoniker": "GreetingHelper.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\GreetingHelper.cs",
+              "RelativeToolTip": "GreetingHelper.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:19:06.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResponseGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\ResponseGenerator.cs",
+              "RelativeDocumentMoniker": "ResponseGenerator.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\ResponseGenerator.cs",
+              "RelativeToolTip": "ResponseGenerator.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAYwGMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:07:00.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatbotEngine.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\ChatbotEngine.cs",
+              "RelativeDocumentMoniker": "ChatbotEngine.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\ChatbotEngine.cs",
+              "RelativeToolTip": "ChatbotEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:06:39.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\MemoryHandler.cs",
+              "RelativeDocumentMoniker": "MemoryHandler.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\MemoryHandler.cs",
+              "RelativeToolTip": "MemoryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:06:16.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:05:41.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6211\\PROG6221_POE_GROUP1\\CyberSecurityAwarenessBot\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAkwIMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T21:54:17.262Z",
               "EditorCaption": ""
